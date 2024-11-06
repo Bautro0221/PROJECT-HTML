@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    line-height: 1.6; 
+}
+.container{
+    filter: drop-shadow(0px 0px 12px #555);
+}
+header {
+    background-color: #ff8c00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: h-offset v-offset blur-radius spread-radius color;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+nav a.active:after,
+nav a:hover:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #ffc600;
+    width: 100%;
+    transition: width 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+
+nav a:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: transparent;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+nav a.active:after {
+    width: 100%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 120px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: #333;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+
+.intro .text {
+    flex: 1;
+}
+
+.intro .text h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ff8c00;
+}
+
+.intro .text p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.intro .cta-button {
+    background-color: #ff8c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.intro .cta-button:hover {
+    background-color: #333;
+}
+
+.intro .profile {
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro .profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0; 
+}
+.footerclone {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%; 
+    position: fixed;
+   
+}
