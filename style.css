@@ -242,7 +242,7 @@ header .container .content .extra-nav button:hover .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: -80%;
+  bottom: -50%;
   width: 70em;
   height: 70em;
   background-image: url("image/moon.jpg");
@@ -483,7 +483,7 @@ header .container .content .extra-nav button:hover .icon {
   position: relative;
   width: 35em;
   height: 35em;
-  background-image: url("image/earth.jpg");
+  background-image: url("image/earth\ \(2\).jpg");
   background-size: 200% 100%;
   background-repeat: repeat;
   border-radius: 50%;
@@ -721,7 +721,7 @@ header .container .content .extra-nav button:hover .icon {
   grid-column-start: 3;
   grid-row-start: 3;
   padding: 1rem;
-  background: url("image/eyropa.jpeg");
+  background: url("image/aboutme.jpg");
   background-size: cover;
   background-position: center;
   border: 2px solid var(--darkgray);
@@ -1060,7 +1060,7 @@ h2 {
 .hero-text {
   font-size: 1.rem;
   line-height: 1.8;
-  color: #333333;
+  color: #000000;
   margin-bottom: 30px;
   width: 800%;  
   max-width: 900px;  
@@ -1119,4 +1119,444 @@ h2 {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+.container-1 {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+}
+.container-2 {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+  color: #000;
+}
+.text-section {
+  flex: 1;
+  padding-right: 20px; 
+}
+
+.text-section h2 {
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #333;
+}
+
+.text-section h2 span {
+  font-weight: bold;
+  color: #a35500;
+}
+
+.text-section p {
+  color: #555;
+  line-height: 1.6;
+}
+.image-section-2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section-2 img {
+  width: 100%;
+  max-width: 400px; 
+  border-radius: 15px; 
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 400px; 
+  border-radius: 15px; 
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.25);
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 200px;
+}
+.bottom-foot {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bottom-foot a {
+  color: #f9532d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;  
+  gap: 10px;
+  margin: 20px 0;
+}
+.social-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.intro .text {
+  flex: 1;
+}
+.intro .text h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #895e28;
+}
+.intro .text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+.intro .profile {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  border-radius: 50%;
+  overflow: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.intro .profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-slider {
+  width: 300px; 
+  height: 400px; 
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  animation: changeImage 10s infinite;
+}
+
+@keyframes changeImage {
+  0%   { background-image: url('image/cebuduathlon.jpg'); }
+  16.67% { background-image: url('image/7th.jpg'); }
+  33.33% { background-image: url('image/fixie1.jpg'); }
+  50%   { background-image: url('image/fixie2.jpg') }
+  66.67% { background-image: url('image/7th.jpg'); }
+  83.33% { background-image: url('image/fixie1.jpg'); }
+  100%  { background-image: url('image/cebuduathlon.jpg'); }
+}
+.container-2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: .3s;
+}
+
+.timeline {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 45%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #ccc; 
+  transform: translateX(-50%); 
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin: 40px 0; 
+  position: relative;
+}
+
+.timeline-left,
+.timeline-right {
+  width: 700%;
+}
+
+.timeline-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gray; 
+  position: absolute;
+  left: 45%;
+  transform: translateX(-50%); 
+  top: 20px; 
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.timeline-circle:hover {
+  background-color: red; 
+  transform: translate(-50%, -50%) scale(1.5); 
+}
+
+.timeline-right {
+  position: relative; 
+}
+#dark-blue{
+  background-color: black;
+ }
+ .container-3{
+  height: 400px;
+  display: flex;
+  flex-direction: nowrap;
+  justify-content: start;
+  max-width: 1000px;
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.card{
+  width: 80px;
+  border-radius: .75rem;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28, -0.03,0,0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+.card > .row{
+  color: white;
+  display: flex;
+  flex-direction: nowrap;
+}
+.card > .row > .icon{
+  background: #223;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.card > .row > .description{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: .3s;
+  transition: all .3s ease;
+}
+.description p{
+  color: #ffffff;
+  padding-top: 5px;
+
+}
+.description h4{
+  text-transform: uppercase;
+}
+input{
+  display: none;
+}
+input:checked + label{
+  width: 600px;
+}
+input:checked + label .description{
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+
+}
+.card[for="c1"]{
+  background-image: url('image/couple.jpg');
+}
+.card[for="c2"]{
+  background-image: url('image/family.jpg');
+}
+.card[for="c3"]{
+  background-image: url('image/7th.jpg');
+}
+.card[for="c4"]{
+  background-image: url('image/Snapinsta.app_322262102_686085856290170_9066125959250837154_n_1080.jpg');
+}
+.card-1 {
+          background-color: #2c2c2c;
+          padding: 20px;
+          border-radius: 15px;
+          text-align: center;
+          width: 300px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          color: white; 
+      }
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.h1-gallery {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  letter-spacing: 20px;
+  word-spacing: 20px;
+}
+.blackhole-image {
+  display: block;        
+  margin: 0 auto;      
+  width: 100%
+}
+.article-layout .container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Left section: 1 part, Main content: 3 parts */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.info {
+  text-align: left;
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+}
+
+.info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.info p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.main-content {
+  text-align: left;
+}
+
+.read-time {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  margin: 10px 0;
+}
+
+.subtitle {
+  font-size: 20px;  
+  color: #333;     
+  line-height: 1.9;  
+  margin: 10px 0;    
+}
+
+.main-content p {
+  margin: 10px 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.featured-image {
+  display: block;
+  margin-top: 20px;
+  max-width: 100%; 
+  height: auto;    
+  width: auto;     
+}
+
+.new-featured-image {
+  display: block;        
+  margin-top: 20px;        
+  width: 150%;           
+  max-width: 850px;        
+  height: auto;          
+  margin-left: auto;       
+  margin-right: auto;     
+}
+.mercur-image {
+  display: block;        
+  margin: 0 auto;      
+  width: 100%
+}
+.mercury-image {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  top: 50px; /* Adjust this value to move the image down */
+}
+.facts-section2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.facts-grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+  grid-gap: 20px; /* Adds spacing between grid items */
+  margin-top: 20px;
+}
+
+.fact-item2 {
+  background-color: #f4f4f4; /* Set a background color for each square */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+.fact-item2 h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.fact-item2 h3 {
+  font-size: 24px;
+  color: #555;
+}
+
+.fact-item2 p {
+  color: #666;
 }
